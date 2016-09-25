@@ -3,7 +3,7 @@ use strict;
 
 use Net::MQTT::Simple;
 
-my $mqtt = Net::MQTT::Simple->new("192.168.0.3");
+my $mqtt = Net::MQTT::Simple->new("127.0.0.1");
 
 use IO::Socket;
 use Net::DHCP::Packet;
